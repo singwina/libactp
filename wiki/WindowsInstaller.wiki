@@ -1,3 +1,5 @@
+#summary The Windows Installer.
+
 I built the source code using Microsoft Visual Studio 2008 Express ( which is free to use ).
 I had to download VTK and CMake and learn how to use CMake.
 I had to fix a couple of build errors ( probably because it was orignally made in another version of Visual Studio ).
