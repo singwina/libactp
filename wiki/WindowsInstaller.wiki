@@ -2,6 +2,8 @@
 
 I built the source code using Microsoft Visual Studio 2008 Express ( which is free to use ).
 I had to download VTK and CMake and learn how to use CMake.
+I made the installation using Inno Setup 5.
+
 I had to fix a couple of build errors ( probably because it was orignally made in another version of Visual Studio ).
 
 It works, but you can't rotate the view ( some errors appear ).
