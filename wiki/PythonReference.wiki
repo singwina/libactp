@@ -5,74 +5,74 @@ index numbers start at zero and go up to and including n-1
 
 
 
-makerough('cone.stl')
+===makerough('cone.stl')===
 
-n = getnumpaths()
+===n = getnumpaths()===
 
-n = getnumpoints(path_index)
+===n = getnumpoints(path_index)===
 
-z = getz(path_index)
+===z = getz(path_index)===
 
-x, y = getpoint(path_index, point_index)
+===x, y = getpoint(path_index, point_index)===
 
-n = getnumbreaks(path_index)
+===n = getnumbreaks(path_index)===
 
-b = getbreak(path_index, break_index)
+===b = getbreak(path_index, break_index)===
 
-n = getnumlinkpths(path_index, break_index)
+===n = getnumlinkpths(path_index, break_index)===
 
-n = getnumlinkpoints(path_index, link_index)
+===n = getnumlinkpoints(path_index, link_index)===
 
-x, y, z = getlinkpoint(path_index, link_index, point_index)
+===x, y, z = getlinkpoint(path_index, link_index, point_index)===
 
-setleadoffdz(value_in_mm)
+setleadoffdz(value_in_mm)===
 
-setleadofflen(value_in_mm)
+===setleadofflen(value_in_mm)===
 
-setleadoffrad(value_in_mm)
+===setleadoffrad(value_in_mm)===
 
-setretractzheight(value_in_mm)
+===setretractzheight(value_in_mm)===
 
-setleadoffsamplestep(value_in_mm)
+===setleadoffsamplestep(value_in_mm)===
 
-settoolcornerrad(value_in_mm)
+===settoolcornerrad(value_in_mm)===
 
-settoolflatrad(value_in_mm)
+===settoolflatrad(value_in_mm)===
 
-setsamplestep(value_in_mm)
+===setsamplestep(value_in_mm)===
 
-setstepdown(value_in_mm)
+===setstepdown(value_in_mm)===
 
-setclearcuspheight(value_in_mm)
+===setclearcuspheight(value_in_mm)===
 
-settriangleweaveres(value_in_mm)
+===settriangleweaveres(value_in_mm)===
 
-setflatradweaveres(value_in_mm)
+===setflatradweaveres(value_in_mm)===
 
-setdchangright(value_in_mm)
+===setdchangright(value_in_mm)===
 
-setdchangrightoncontour(value_in_mm)
+===setdchangrightoncontour(value_in_mm)===
 
-setdchangleft(value_in_mm)
+===setdchangleft(value_in_mm)===
 
-setdchangefreespace(value_in_mm)
+===setdchangefreespace(value_in_mm)===
 
-setsidecutdisplch(value_in_mm)
+===setsidecutdisplch(value_in_mm)===
 
-setfcut(value)
+===setfcut(value)===
 
-setfretract(value)
+===setfretract(value)===
 
-setthintol(value_in_mm)
+===setthintol(value_in_mm)===
 
-setstartpoint(x, y)
+===setstartpoint(x, y)===
 
-setminz(z)
+===setminz(z)===
 
-boundaryclear(z)
+===boundaryclear(z)===
 
-boundaryadd(x, y)
+===boundaryadd(x, y)===
 
-boundarybreak()
+===boundarybreak()===
 
-resetdefaults()
+===resetdefaults()===
