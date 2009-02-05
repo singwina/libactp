@@ -1,5 +1,10 @@
 #summary List of functions for the Python module
 
+
+index numbers start at zero and go up to and including n-1
+
+
+
 makerough('cone.stl')
 
 n = getnumpaths()
@@ -18,59 +23,56 @@ n = getnumlinkpths(path_index, break_index)
 
 n = getnumlinkpoints(path_index, link_index)
 
-#I'll document the rest when I'm not asleep, hopefully
+x, y, z = getlinkpoint(path_index, link_index, point_index)
 
-getlinkpoint", actp_getlinkpoint, METH_VARARGS , ""},
+setleadoffdz(value_in_mm)
 
-	{"setleadoffdz", actp_setleadoffdz, METH_VARARGS , ""},
+setleadofflen(value_in_mm)
 
-	{"setleadofflen", actp_setleadofflen, METH_VARARGS , ""},
+setleadoffrad(value_in_mm)
 
-	{"setleadoffrad", actp_setleadoffrad, METH_VARARGS , ""},
+setretractzheight(value_in_mm)
 
-	{"setretractzheight", actp_setretractzheight, METH_VARARGS , ""},
+setleadoffsamplestep(value_in_mm)
 
-	{"setleadoffsamplestep", actp_setleadoffsamplestep, METH_VARARGS , ""},
+settoolcornerrad(value_in_mm)
 
-	{"settoolcornerrad", actp_settoolcornerrad, METH_VARARGS , ""},
+settoolflatrad(value_in_mm)
 
-	{"settoolflatrad", actp_settoolflatrad, METH_VARARGS , ""},
+setsamplestep(value_in_mm)
 
-	{"setsamplestep", actp_setsamplestep, METH_VARARGS , ""},
+setstepdown(value_in_mm)
 
-	{"setstepdown", actp_setstepdown, METH_VARARGS , ""},
+setclearcuspheight(value_in_mm)
 
-	{"setclearcuspheight", actp_setclearcuspheight, METH_VARARGS , ""},
+settriangleweaveres(value_in_mm)
 
-	{"settriangleweaveres", actp_settriangleweaveres, METH_VARARGS , ""},
+setflatradweaveres(value_in_mm)
 
-	{"setflatradweaveres", actp_setflatradweaveres, METH_VARARGS , ""},
+setdchangright(value_in_mm)
 
-	{"setdchangright", actp_setdchangright, METH_VARARGS , ""}, 
+setdchangrightoncontour(value_in_mm)
 
-	{"setdchangrightoncontour", actp_setdchangrightoncontour, METH_VARARGS , ""},
+setdchangleft(value_in_mm)
 
-	{"setdchangleft", actp_setdchangleft, METH_VARARGS , ""},
+setdchangefreespace(value_in_mm)
 
-	{"setdchangefreespace", actp_setdchangefreespace, METH_VARARGS , ""},
+setsidecutdisplch(value_in_mm)
 
-	{"setsidecutdisplch", actp_setsidecutdisplch, METH_VARARGS , ""},
+setfcut(value)
 
-	{"setfcut", actp_setfcut, METH_VARARGS , ""},
+setfretract(value)
 
-	{"setfretract", actp_setfretract, METH_VARARGS , ""},
+setthintol(value_in_mm)
 
-	{"setthintol", actp_setthintol, METH_VARARGS , ""},
+setstartpoint(x, y)
 
-	{"setstartpoint", actp_setstartpoint, METH_VARARGS , ""},
+setminz(z)
 
-	{"setminz", actp_setminz, METH_VARARGS , ""},
+boundaryclear(z)
 
-	{"boundaryclear", actp_boundaryclear, METH_VARARGS , ""},
+boundaryadd(x, y)
 
-	{"boundaryadd", actp_boundaryadd, METH_VARARGS , ""},
+boundarybreak()
 
-	{"boundarybreak", actp_boundarybreak, METH_VARARGS , ""},
-
-	{"resetdefaults", actp_resetparams, METH_VARARGS , ""},
-
+resetdefaults()
