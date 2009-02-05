@@ -6,68 +6,103 @@ index numbers start at zero and go up to and including n-1
 
 
 ===makerough('cone.stl')===
+This calculates the toolpath for the given .stl file. You might want to change some of the parameters with the set...  functions below.
 
 ===n = getnumpaths()===
+Returns the number of paths in the toolpath.
 
 ===n = getnumpoints(path_index)===
+Returns the number of points in a given path, first path is 0.
 
 ===z = getz(path_index)===
+Returns the z height of the given path.
 
 ===x, y = getpoint(path_index, point_index)===
+Returns the x and y coordinates of the given point of the given path.
 
 ===n = getnumbreaks(path_index)===
+Returns the number of breaks in the given path.
 
 ===b = getbreak(path_index, break_index)===
+Returns the position of the given break in the given path
 
-===n = getnumlinkpths(path_index, break_index)===
+===n = getnumlinkpths(path_index)===
+Returns the number of link paths in a given path
 
 ===n = getnumlinkpoints(path_index, link_index)===
+Returns the number of points in a given link path of a given path
 
 ===x, y, z = getlinkpoint(path_index, link_index, point_index)===
+Returns the x, y and z coordinates of a given link point of a given link path of a given path
 
-setleadoffdz(value_in_mm)===
+===setleadoffdz(value_in_mm)===
+default value is 0.1
 
 ===setleadofflen(value_in_mm)===
+default value is 1.1
 
 ===setleadoffrad(value_in_mm)===
+default value is 2.0
 
 ===setretractzheight(value_in_mm)===
+default value is 20.0
 
 ===setleadoffsamplestep(value_in_mm)===
+default value is 0.6
 
 ===settoolcornerrad(value_in_mm)===
+The corner radius of the tool.
+default value is 3.0
 
 ===settoolflatrad(value_in_mm)===
+The radius of the flat part of the tool ( 0 for a ball nose tool )
+default value is 0.0
 
 ===setsamplestep(value_in_mm)===
+default value is 0.4
 
 ===setstepdown(value_in_mm)===
+default value is 5.0
 
 ===setclearcuspheight(value_in_mm)===
+default value is 1.67
 
 ===settriangleweaveres(value_in_mm)===
+default value is 0.51
 
 ===setflatradweaveres(value_in_mm)===
+default value is 0.71
 
 ===setdchangright(value_in_mm)===
+default value is 0.17
 
 ===setdchangrightoncontour(value_in_mm)===
+default value is 0.37
 
 ===setdchangleft(value_in_mm)===
+default value is -0.41
 
 ===setdchangefreespace(value_in_mm)===
+default value is -0.6
 
 ===setsidecutdisplch(value_in_mm)===
+default value is 0.0
 
 ===setfcut(value)===
+default value is 1000
 
 ===setfretract(value)===
+default value is 5000
 
 ===setthintol(value_in_mm)===
+default value is 0.0001
 
-===setstartpoint(x, y)===
+===setstartpoint(x, y, vx, vy)===
+The start point and direction.
+If not set, then the top left is used.
 
 ===setminz(z)===
+default value is -10000000.0
 
 ===boundaryclear(z)===
 
