@@ -8,7 +8,7 @@ index numbers start at zero and go up to and including n-1
 ===error = makerough('cone.stl')===
 This calculates the toolpath for the given .stl file. You might want to change some of the parameters with the set...  functions below, before calling this.
 Returns 0, if succesful.
-Then you can call the get.. functions below, see sample.py for an example
+Then you can call the get.. functions below, see http://code.google.com/p/libactp/source/browse/trunk/PythonLib/sample.py for an example
 
 ===n = getnumpaths()===
 Returns the number of paths in the toolpath.
