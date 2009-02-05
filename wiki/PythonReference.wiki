@@ -1,0 +1,76 @@
+#summary List of functions for the Python module
+
+makerough('cone.stl')
+
+n = getnumpaths()
+
+n = getnumpoints(path_index)
+
+z = getz(path_index)
+
+x, y = getpoint(path_index, point_index)
+
+n = getnumbreaks(path_index)
+
+b = getbreak(path_index, break_index)
+
+n = getnumlinkpths(path_index, break_index)
+
+n = getnumlinkpoints(path_index, link_index)
+
+#I'll document the rest when I'm not asleep, hopefully
+
+getlinkpoint", actp_getlinkpoint, METH_VARARGS , ""},
+
+	{"setleadoffdz", actp_setleadoffdz, METH_VARARGS , ""},
+
+	{"setleadofflen", actp_setleadofflen, METH_VARARGS , ""},
+
+	{"setleadoffrad", actp_setleadoffrad, METH_VARARGS , ""},
+
+	{"setretractzheight", actp_setretractzheight, METH_VARARGS , ""},
+
+	{"setleadoffsamplestep", actp_setleadoffsamplestep, METH_VARARGS , ""},
+
+	{"settoolcornerrad", actp_settoolcornerrad, METH_VARARGS , ""},
+
+	{"settoolflatrad", actp_settoolflatrad, METH_VARARGS , ""},
+
+	{"setsamplestep", actp_setsamplestep, METH_VARARGS , ""},
+
+	{"setstepdown", actp_setstepdown, METH_VARARGS , ""},
+
+	{"setclearcuspheight", actp_setclearcuspheight, METH_VARARGS , ""},
+
+	{"settriangleweaveres", actp_settriangleweaveres, METH_VARARGS , ""},
+
+	{"setflatradweaveres", actp_setflatradweaveres, METH_VARARGS , ""},
+
+	{"setdchangright", actp_setdchangright, METH_VARARGS , ""}, 
+
+	{"setdchangrightoncontour", actp_setdchangrightoncontour, METH_VARARGS , ""},
+
+	{"setdchangleft", actp_setdchangleft, METH_VARARGS , ""},
+
+	{"setdchangefreespace", actp_setdchangefreespace, METH_VARARGS , ""},
+
+	{"setsidecutdisplch", actp_setsidecutdisplch, METH_VARARGS , ""},
+
+	{"setfcut", actp_setfcut, METH_VARARGS , ""},
+
+	{"setfretract", actp_setfretract, METH_VARARGS , ""},
+
+	{"setthintol", actp_setthintol, METH_VARARGS , ""},
+
+	{"setstartpoint", actp_setstartpoint, METH_VARARGS , ""},
+
+	{"setminz", actp_setminz, METH_VARARGS , ""},
+
+	{"boundaryclear", actp_boundaryclear, METH_VARARGS , ""},
+
+	{"boundaryadd", actp_boundaryadd, METH_VARARGS , ""},
+
+	{"boundarybreak", actp_boundarybreak, METH_VARARGS , ""},
+
+	{"resetdefaults", actp_resetparams, METH_VARARGS , ""},
+
