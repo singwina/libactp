@@ -15,5 +15,3 @@ python sample2.py
 
 
 It will make test.tap in the same folder
-
-http://libactp.googlecode.com/svn/wiki/libactp.png
