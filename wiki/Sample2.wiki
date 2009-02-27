@@ -1,7 +1,7 @@
-#summary Making toolpath like on the front page
+#summary Specifying start point and direction
 
 
-=for linux=
+===for linux===
 
 Open terminal
 
